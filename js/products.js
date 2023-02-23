@@ -28,14 +28,14 @@ const productos = [
     cantidad: 1,
   },
   {
-    id: 4,
+    id: 5,
     nombre: "Fugazzetta Rellena",
     precio: 2000,
     img: (src = "../img/fugazzettarellena.jpg"),
     cantidad: 1,
   },
   {
-    id: 4,
+    id: 6,
     nombre: "Fugazzeta y Pepperoni",
     precio: 2200,
     img: (src = "../img/fugazzettaypepperoni.jpg"),

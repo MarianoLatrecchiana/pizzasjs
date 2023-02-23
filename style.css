@@ -1,6 +1,6 @@
 body {
   margin: 0px;
-  background-color: gray;
+  background: radial-gradient(#ffffff, #e3e3e3, #c4c4c4);
 }
 /*navbar*/
 .nav-container {
@@ -17,15 +17,14 @@ body {
 
 .navbar-logo {
   justify-self: start;
-  margin-left: 20px;
-  color: #fff;
-  margin-top: 4vh;
+  margin: 5px;
   cursor: pointer;
+  height: 100%;
 }
 
 .ver-carrito {
-  font-size: 25px;
-  margin-right: 20px;
+  font-size: 30px;
+  margin-right: 30px;
   margin-top: 3.5vh;
   cursor: pointer;
 }
@@ -85,7 +84,7 @@ body {
 }
 
 .price {
-  color: grey;
+  color: rgb(0, 0, 0);
   font-size: 22px;
 }
 
@@ -107,8 +106,8 @@ body {
 
 /*modal content*/
 .modal-container {
-  width: 80%;
-  margin: 0 10%;
+  width: 70%;
+  margin: 0 15%;
   max-height: 88vh;
   color: #fff;
   background-color: #121212;
@@ -129,7 +128,7 @@ body {
 .modal-header {
   display: flex;
   justify-content: space-around;
-  background-color: #0a0909;
+  background-color: #737373;
   color: #fff;
   width: 100%;
 }
@@ -148,7 +147,7 @@ body {
   justify-content: space-around;
   align-items: center;
   width: 70%;
-  margin: 10px;
+  margin: 5px;
 }
 
 .modal-container > div > img {
@@ -163,7 +162,7 @@ body {
   padding-top: 20px;
 }
 
-/*se agregaron unas lineas de css con media querys para que se adapte mejor al responsive :)*/
+/*se agregaron unas lineas de css con media querys para que se adapte mejor al responsive*/
 
 @media only screen and (max-width: 750px) {
   .modal-container {
@@ -193,11 +192,11 @@ body {
 .cantidad-carrito {
   background-color: red;
   color: white;
-  border-radius: 50%;
-  font-size: 12px;
-  padding: 4px;
-  top: 37px;
-  right: 14px;
+  border-radius: 100%;
+  font-size: 15px;
+  padding: 5px;
+  top: 40px;
+  right: 30px;
   position: absolute;
   display: none;
 }
